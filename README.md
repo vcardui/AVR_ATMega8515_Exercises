@@ -19,6 +19,9 @@ mostrará las letras de la A a la F.
 el mismo valor.
 
 ### Working project demo
+
+[![Watch the video](https://raw.githubusercontent.com/vcardui/AVR_ATMega8515_Exercises/main/Youtube_Assembly_01_Exercise/Youtube_Assembly_01_Exercise_thumbnail.jpg)](https://raw.githubusercontent.com/vcardui/AVR_ATMega8515_Exercises/main/Youtube_Assembly_01_Exercise/Youtube_Assembly_01_Exercise/Youtube_Assembly_01_Exercise_demo.mp4)
+
 (Add video/images)
 
 ## 🙌 Project Personal Milestones
