@@ -19,7 +19,6 @@ mostrará las letras de la A a la F.
 el mismo valor.
 
 ### Working project demo
-
 (Add video/images)
 
 ## 🙌 Project Personal Milestones
