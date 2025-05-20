@@ -18,6 +18,12 @@ mostrará las letras de la A a la F.
 8. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando
 el mismo valor.
 
+Los próximo programas los desarrollaremos en el AULA.
+
+9. Programa que en un solo puerto conecte 4 Displays de 7 segmentos, solo se activará uno a la vez y cada uno mostrará un valor distinto.
+10. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando un valor distinto de forma simultánea (MULTIPLEXAR).
+11. Programa que cuenta de 0 a 99 y activa y desactiva una salida de CA cada 10 segundos. 0-10 Apagado, 11-20 Encendida, ... Apagada,
+
 ### Working project demo
 
 https://github.com/user-attachments/assets/f3bc58a0-f047-435d-a620-c9752039a84d
