@@ -2,10 +2,11 @@
 // | Author.......: Vanessa Reteguín <vanessa@reteguin.com>
 // | First release: May 19th, 2025
 // | Last update..: May 19th, 2025
-// | WhatIs.......: Youtube Assembly 01 Exercise
+// | WhatIs.......: Bit Shifting with Delays - Main
 // +----------------------------------------------------------------------------+
 
-// Link: https://www.youtube.com/watch?v=apbuP5SLwVA
+// ------------ Resources / Documentation involved -------------
+// Bit Shifting with Delays Teacher's Tutorial: https://www.youtube.com/watch?v=apbuP5SLwVA
 
 .INCLUDE <M8515DEF.INC>
 
