@@ -18,7 +18,7 @@ mostrará las letras de la A a la F.
 8. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando
 el mismo valor.
 
-Los próximo programas los desarrollaremos en el AULA.
+Los próximos programas los desarrollaremos en el AULA.
 
 9. Programa que en un solo puerto conecte 4 Displays de 7 segmentos, solo se activará uno a la vez y cada uno mostrará un valor distinto.
 10. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando un valor distinto de forma simultánea (MULTIPLEXAR).
