@@ -16,8 +16,8 @@
 // AVR Delay Loop Calculator: http://darcy.rsgc.on.ca/ACES/TEI4M/AVRdelay.html
 ; Assembly code auto-generated
 ; by utility from Bret Mulvey
-; Delay 16 000 000 cycles
-; 2s at 8 MHz
+; Delay 8 000 000 cycles
+; 1s at 8 MHz
 
 /*
 		ldi  r25, 82
