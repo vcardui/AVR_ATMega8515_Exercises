@@ -2,7 +2,7 @@
 // | Author.......: Vanessa Reteguín <vanessa@reteguin.com>
 // | Author.......: 
 // | First release: May 19th, 2025
-// | Last update..: May 23rd, 2025
+// | Last update..: May 26rd, 2025
 // | WhatIs.......: 7 Segments Display Cycle: 0 to F - Main
 // +----------------------------------------------------------------------------+
 
@@ -12,6 +12,7 @@
 
 // ------------ Resources / Documentation involved -------------
 // Bit Shifting with Delays Teacher's Tutorial: https://www.youtube.com/watch?v=apbuP5SLwVA
+// AVR Stack Pointer y Subrutinas: https://youtu.be/489lpgMzDzk?si=Z6iZih3l-I8lIOES
 
 // AVR Delay Loop Calculator: http://darcy.rsgc.on.ca/ACES/TEI4M/AVRdelay.html
 ; Assembly code auto-generated
@@ -48,183 +49,52 @@ L1:		dec  r27
 			LDI		R21,0B1100110	// 4 -> 1100110 -> 66
 			LDI		R22,0B1101101	// 5 -> 1101101 -> 6D
 			LDI		R23,0B1111101	// 6 -> 1111101 -> 7D
-			LDI		R24,0B1000111	// 7 -> 1000111 -> 47
-			// LDI		R25,0B1111111	// 8 -> 1111111 -> 7F
-			// LDI		R26,0B1101111	// 9 -> 1101111 -> 6F
-			// LDI		R27,0B1110111	// A -> 1110111 -> 77
-			// LDI		R28,0B1111100	// b -> 1111100 -> 7C
-			// LDI		R29,0B0111001	// C -> 0111001 -> 39
+			LDI		R24,0B0000111	// 7 -> 0000111 -> 07
+			LDI		R25,0B1111111	// 8 -> 1111111 -> 7F
+			LDI		R26,0B1101111	// 9 -> 1101111 -> 6F
+			LDI		R27,0B1110111	// A -> 1110111 -> 77
+			LDI		R28,0B1111100	// b -> 1111100 -> 7C
+			LDI		R29,0B0111001	// C -> 0111001 -> 39
 			// LDI		R30,0B1011110	// d -> 1011110 -> 5E
 			// LDI		R31,0B1111001	// E -> 1111001 -> 79
 			// LDI		R32,0B1110001	// F -> 1110001 -> 71
 			
 CICLO:		OUT		PORTA,R17
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L1:		DEC  R27
-			BRNE L1
-			DEC  R26
-			BRNE L1
-			DEC  R25
-			BRNE L1
-
+			RCALL	SUBRRUTINA
 			OUT		PORTA,R18
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L2:		DEC  R27
-			BRNE L2
-			DEC  R26
-			BRNE L2
-			DEC  R25
-			BRNE L2
-
+			RCALL	SUBRRUTINA
 			OUT		PORTA,R19
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L3:		DEC  R27
-			BRNE L3
-			DEC  R26
-			BRNE L3
-			DEC  R25
-			BRNE L3
-
+			RCALL	SUBRRUTINA
 			OUT		PORTA,R20
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L4:		DEC  R27
-			BRNE L4
-			DEC  R26
-			BRNE L4
-			DEC  R25
-			BRNE L4
-
+			RCALL	SUBRRUTINA
 			OUT		PORTA,R21
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L5:		DEC  R27
-			BRNE L5
-			DEC  R26
-			BRNE L5
-			DEC  R25
-			BRNE L5
-
+			RCALL	SUBRRUTINA
 			OUT		PORTA,R22
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L6:		DEC  R27
-			BRNE L6
-			DEC  R26
-			BRNE L6
-			DEC  R25
-			BRNE L6
-
+			RCALL	SUBRRUTINA
 			OUT		PORTA,R23
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L7:		DEC  R27
-			BRNE L7
-			DEC  R26
-			BRNE L7
-			DEC  R25
-			BRNE L7
-
+			RCALL	SUBRRUTINA
 			OUT		PORTA,R24
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L8:		DEC  R27
-			BRNE L8
-			DEC  R26
-			BRNE L8
-			DEC  R25
-			BRNE L8
-
-			OUT		PORTA,R23
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L9:		DEC  R27
-			BRNE L9
-			DEC  R26
-			BRNE L9
-			DEC  R25
-			BRNE L9
-
-			OUT		PORTA,R22
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L10:	DEC  R27
-			BRNE L10
-			DEC  R26
-			BRNE L10
-			DEC  R25
-			BRNE L10
-
-			OUT		PORTA,R21
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L11:	DEC  R27
-			BRNE L11
-			DEC  R26
-			BRNE L11
-			DEC  R25
-			BRNE L11
-
-			OUT		PORTA,R20
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L12:	DEC  R27
-			BRNE L12
-			DEC  R26
-			BRNE L12
-			DEC  R25
-			BRNE L12
-
-			OUT		PORTA,R19
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L13:	DEC  R27
-			BRNE L13
-			DEC  R26
-			BRNE L13
-			DEC  R25
-			BRNE L13
-
-			OUT		PORTA,R18
-
-			LDI  R25, 41
-			LDI  R26, 150
-			LDI  R27, 128
-	L14:	DEC  R27
-			BRNE L14
-			DEC  R26
-			BRNE L14
-			DEC  R25
-			BRNE L14
-
-
+			RCALL	SUBRRUTINA
+			OUT		PORTA,R25
+			RCALL	SUBRRUTINA
+			OUT		PORTA,R26
+			RCALL	SUBRRUTINA
+			OUT		PORTA,R27
+			RCALL	SUBRRUTINA
+			OUT		PORTA,R28
+			RCALL	SUBRRUTINA
+			
 			RJMP	CICLO
+
+SUBRRUTINA:
+			LDI  R29, 10
+			LDI  R30, 150
+			LDI  R31, 128
+	L1:		DEC  R31
+			BRNE L1
+			DEC  R30
+			BRNE L1
+			DEC  R29
+			BRNE L1
+
+			RET
