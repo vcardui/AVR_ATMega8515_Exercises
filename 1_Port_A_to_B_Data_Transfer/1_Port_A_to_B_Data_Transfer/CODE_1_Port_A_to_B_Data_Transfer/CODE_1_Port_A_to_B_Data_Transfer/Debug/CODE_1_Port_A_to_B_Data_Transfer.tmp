@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega8515"</DEVICE>
+ <WORKING_DIR>C:\Users\Cardui\CarduiDocs\1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Cardui\CarduiDocs\1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m8515def.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M8515DEF.INC</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Cardui\CarduiDocs\1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\Debug\CODE_1_Port_A_to_B_Data_Transfer.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>CODE_1_Port_A_to_B_Data_Transfer.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>CODE_1_Port_A_to_B_Data_Transfer.map</FILE>
+  <FILE>CODE_1_Port_A_to_B_Data_Transfer.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INIT><FILE>C:\Users\Cardui\CarduiDocs\1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\main.asm</FILE><LINE>29</LINE></INIT>
+  <MAIN_LOOP><FILE>C:\Users\Cardui\CarduiDocs\1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\main.asm</FILE><LINE>39</LINE></MAIN_LOOP>
+  <SHIFT_N_SHOW><FILE>C:\Users\Cardui\CarduiDocs\1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\main.asm</FILE><LINE>49</LINE></SHIFT_N_SHOW>
+  <SHIFT_LOOP><FILE>C:\Users\Cardui\CarduiDocs\1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\main.asm</FILE><LINE>52</LINE></SHIFT_LOOP>
+  <DELAY><FILE>C:\Users\Cardui\CarduiDocs\1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\main.asm</FILE><LINE>61</LINE></DELAY>
+  <WAIT1><FILE>C:\Users\Cardui\CarduiDocs\1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\CODE_1_Port_A_to_B_Data_Transfer\main.asm</FILE><LINE>64</LINE></WAIT1>
+ </LABELS>
+</ASSEMBLER_INFO>
