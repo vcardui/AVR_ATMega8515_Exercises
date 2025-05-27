@@ -6,23 +6,23 @@ Assembly exercises for AVR ATMega8515
 
 (TRANSLATE AND ADD VIDEOS)
 
-- [] 1. Grabar el programa y construir el circuito para probar la transferencia del puerto PB al Puerto PA.
-- [] 2. Construir el circuito para probar el "Programa KIT".
+- [ ] 1. Grabar el programa y construir el circuito para probar la transferencia del puerto PB al Puerto PA.
+- [ ] 2. Construir el circuito para probar el "Programa KIT".
 - [X] 3. Escribir un programa que despliegue en un Display de 7 segmentos el conteo de O a F de forma cíclica (Se sugiere que sea con Lógica Inversa).
-- [] 4. Escribir programa que cuente de manera cíclica del 0 al 99 (utilizar 2 puertos
+- [ ] 4. Escribir programa que cuente de manera cíclica del 0 al 99 (utilizar 2 puertos
 como salidas).
-- [] 5. Programa que lea UN BIT de forma cíclica de UN PUERTO y si vale 1, entonces mostrará el conteo de 0 a 9 en un display de 7 segmentos, en caso contrario
+- [ ] 5. Programa que lea UN BIT de forma cíclica de UN PUERTO y si vale 1, entonces mostrará el conteo de 0 a 9 en un display de 7 segmentos, en caso contrario
 mostrará las letras de la A a la F.
-- [] 6. Programa que lea 2 números en binario (en dos puertos diferentes) y coloque el mayor de los dos en un tercer puerto.
-- [] 7. Programa que lea 2 números en binario (en dos puertos diferentes) y coloque la suma de ambos en un tercer puerto (la salida parpadeará si la suma se desborda, es decir, si la suma no se puede - representar en 8 bits).
-- [] 8. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando
+- [ ] 6. Programa que lea 2 números en binario (en dos puertos diferentes) y coloque el mayor de los dos en un tercer puerto.
+- [ ] 7. Programa que lea 2 números en binario (en dos puertos diferentes) y coloque la suma de ambos en un tercer puerto (la salida parpadeará si la suma se desborda, es decir, si la suma no se puede - representar en 8 bits).
+- [ ] 8. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando
 el mismo valor.
 
 Los próximos programas los desarrollaremos en el AULA.
 
-- [] 9. Programa que en un solo puerto conecte 4 Displays de 7 segmentos, solo se activará uno a la vez y cada uno mostrará un valor distinto.
-- [] 10. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando un valor distinto de forma simultánea (MULTIPLEXAR).
-- [] 11. Programa que cuenta de 0 a 99 y activa y desactiva una salida de CA cada 10 segundos. 0-10 Apagado, 11-20 Encendida, ... Apagada,
+- [ ] 9. Programa que en un solo puerto conecte 4 Displays de 7 segmentos, solo se activará uno a la vez y cada uno mostrará un valor distinto.
+- [ ] 10. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando un valor distinto de forma simultánea (MULTIPLEXAR).
+- [ ] 11. Programa que cuenta de 0 a 99 y activa y desactiva una salida de CA cada 10 segundos. 0-10 Apagado, 11-20 Encendida, ... Apagada,
 
 ### Working project demo
 
