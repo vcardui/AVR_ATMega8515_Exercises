@@ -26,7 +26,12 @@ Los próximos programas los desarrollaremos en el AULA.
 
 ### Working project demo
 
+### 0_Bit_Shifting_with_Delays
 https://github.com/user-attachments/assets/f3bc58a0-f047-435d-a620-c9752039a84d
+
+### 3_7SegmentsDisplay_Cycle_0_to_F
+https://github.com/user-attachments/assets/f50bd2c1-0b61-4ca9-a0d2-baa1aa9b8b86
+
 
 
 (Add video/images)
