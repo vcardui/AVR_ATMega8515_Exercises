@@ -7,9 +7,9 @@ Assembly exercises for AVR ATMega8515
 (TRANSLATE AND ADD VIDEOS)
 
 - [ ] 1. Grabar el programa y construir el circuito para probar la transferencia del puerto PB al Puerto PA.
-- [ ] 2. Construir el circuito para probar el "Programa KIT".
+- [X] 2. Construir el circuito para probar el "Programa KIT".
 - [X] 3. Escribir un programa que despliegue en un Display de 7 segmentos el conteo de O a F de forma cíclica (Se sugiere que sea con Lógica Inversa).
-- [ ] 4. Escribir programa que cuente de manera cíclica del 0 al 99 (utilizar 2 puertos
+- [X] 4. Escribir programa que cuente de manera cíclica del 0 al 99 (utilizar 2 puertos
 como salidas).
 - [ ] 5. Programa que lea UN BIT de forma cíclica de UN PUERTO y si vale 1, entonces mostrará el conteo de 0 a 9 en un display de 7 segmentos, en caso contrario
 mostrará las letras de la A a la F.
