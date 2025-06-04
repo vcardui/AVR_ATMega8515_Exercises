@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega8515"</DEVICE>
+ <WORKING_DIR>c:\users\alexi\Documents\Atmel Studio\7.0\Programa Seis\Programa Seis\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\alexi\Documents\Atmel Studio\7.0\Programa Seis\Programa Seis\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8515def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\alexi\Documents\Atmel Studio\7.0\Programa Seis\Programa Seis\Debug\Programa Seis.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Programa Seis.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Programa Seis.map</FILE>
+  <FILE>Programa Seis.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INIT><FILE>c:\users\alexi\Documents\Atmel Studio\7.0\Programa Seis\Programa Seis\main.asm</FILE><LINE>37</LINE></INIT>
+  <MAIN_LOOP><FILE>c:\users\alexi\Documents\Atmel Studio\7.0\Programa Seis\Programa Seis\main.asm</FILE><LINE>50</LINE></MAIN_LOOP>
+  <A_IS_HEQ><FILE>c:\users\alexi\Documents\Atmel Studio\7.0\Programa Seis\Programa Seis\main.asm</FILE><LINE>69</LINE></A_IS_HEQ>
+ </LABELS>
+</ASSEMBLER_INFO>
