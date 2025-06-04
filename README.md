@@ -35,6 +35,12 @@ https://github.com/user-attachments/assets/f50bd2c1-0b61-4ca9-a0d2-baa1aa9b8b86
 ### 4_0_to_99_Counter
 https://github.com/user-attachments/assets/53097d35-165c-42ec-9bfd-720d62abd2e2
 
+### 8_Binary_to
+https://github.com/user-attachments/assets/11d9c830-22f4-4feb-987a-b69671b84932
+
+_decimal_in_7SegmentsDisplay
+
+
 ## 🙌 Project Personal Milestones
 
 (TO DO)
