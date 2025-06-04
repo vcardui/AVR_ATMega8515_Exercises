@@ -16,7 +16,7 @@
 // Declaramos el puerto A como salida
 
 			LDI		R16,0XFF
-			OUT		DDRA,R16	// Conigutamos el puerto como salida
+			OUT		DDRA,R16	// Configuramos el puerto como salida
 
 			LDI		R17,0B10000000
 			LDI		R18,0B01000000
