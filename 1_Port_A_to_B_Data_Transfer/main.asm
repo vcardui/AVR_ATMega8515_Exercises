@@ -1,20 +1,17 @@
-;
-; Port_A_to_B_Data_Transfer.asm
-;
-; Created: 20/05/2025 10:27:51
-;
-; Autores:
-;     - Alexis Alberto Zúñiga Alonso
-;     - Alan Torres Ruíz
-;     - Martín Isaí Núñez Villeda
-;     - Vanessa Reteguín
-;
-; Objetivo del programa:
-; Leer datos digitales desde el PORTB (configurado como entrada) y transferirlos a PORTA (configurado
+// +----------------------------------------------------------------------------+
+// | Author.......: Alexis Alberto Zúñiga Alonso <>
+// | First release: May 20th, 2025
+// | Last update..: June 4th, 2025
+// | WhatIs.......: Port A to B Data Transfer - Main
+// +----------------------------------------------------------------------------+
+
+// ------------ Resources / Documentation involved -------------
+
+
+// ------------ Objective -------------
+// Leer datos digitales desde el PORTB (configurado como entrada) y transferirlos a PORTA (configurado
 ; como salida), aplicando un desplazamiento de bits hacia la izquierda con un retardo para que se
 ; pueda observar el proceso (por ejemplo, en LEDs).
-;
-
 
 ; Inclusion de las definiciones del microcontrolador
 .INCLUDE <M8515DEF.INC>
