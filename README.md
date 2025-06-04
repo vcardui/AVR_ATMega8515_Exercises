@@ -22,7 +22,7 @@ Los próximos programas los desarrollaremos en el AULA.
 
 - [ ] 9. Programa que en un solo puerto conecte 4 Displays de 7 segmentos, solo se activará uno a la vez y cada uno mostrará un valor distinto.
 - [ ] 10. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando un valor distinto de forma simultánea (MULTIPLEXAR).
-- [ ] 11. Programa que cuenta de 0 a 99 y activa y desactiva una salida de CA cada 10 segundos. 0-10 Apagado, 11-20 Encendida, ... Apagada,
+- [X] 11. Programa que cuenta de 0 a 99 y activa y desactiva una salida de CA cada 10 segundos. 0-10 Apagado, 11-20 Encendida, ... Apagada,
 
 ### Working project demo
 
