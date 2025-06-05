@@ -1,13 +1,12 @@
 // +----------------------------------------------------------------------------+
 // | Author.......: Martin Nunez <raisainu@outlook.com>
-// | Author.......: 
+// | Author.......: Vanessa Reteguín <vanessa@reteguín.com>
 // | First release: May 29th, 2025
-// | Last update..: May 29th, 2025
-// | WhatIs.......: 0 to 99 Counter - Main
+// | Last update..: June 4th, 2025
+// | WhatIs.......: Turn On-Off 0 to 99_Counter - Main
 // +----------------------------------------------------------------------------+
 
 // ------------ Resources / Documentation involved -------------
-// Bit Shifting with Delays Teacher's Tutorial: 
 
 // ------------ Objective -------------
 // Programa que cuenta de 0 a 99 y activa y desactiva una salida de CA cada 10 segundos. 0-10 Apagado, 11-20 Encendida, ... Apagada,
