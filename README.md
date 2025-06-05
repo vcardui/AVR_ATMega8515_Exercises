@@ -41,6 +41,11 @@ https://github.com/user-attachments/assets/973d70a7-1a8d-430f-8e22-2be9bdaa1a7d
 ### 8_Binary_to_decimal_in_7SegmentsDisplay
 https://github.com/user-attachments/assets/11d9c830-22f4-4feb-987a-b69671b84932
 
+### 9_Connecting_4_7SegmentsDisplays_different_values
+https://github.com/user-attachments/assets/adf60789-c5a3-44d9-a0d3-4bc49f1d25af
+
+
+
 ## 🙌 Project Personal Milestones
 
 (TO DO)
