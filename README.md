@@ -38,9 +38,6 @@ https://github.com/user-attachments/assets/53097d35-165c-42ec-9bfd-720d62abd2e2
 ### 5_Conditional_7SegmentsDisplay_Cycle_0_to_9_or_A_to_F_demo
 https://github.com/user-attachments/assets/973d70a7-1a8d-430f-8e22-2be9bdaa1a7d
 
-
-
-
 ### 8_Binary_to
 https://github.com/user-attachments/assets/11d9c830-22f4-4feb-987a-b69671b84932
 
