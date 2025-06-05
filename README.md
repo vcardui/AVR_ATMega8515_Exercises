@@ -13,7 +13,7 @@ Assembly exercises for AVR ATMega8515
 como salidas).
 - [X] 5. Programa que lea UN BIT de forma cíclica de UN PUERTO y si vale 1, entonces mostrará el conteo de 0 a 9 en un display de 7 segmentos, en caso contrario
 mostrará las letras de la A a la F.
-- [ ] 6. Programa que lea 2 números en binario (en dos puertos diferentes) y coloque el mayor de los dos en un tercer puerto.
+- [X] 6. Programa que lea 2 números en binario (en dos puertos diferentes) y coloque el mayor de los dos en un tercer puerto.
 - [ ] 7. Programa que lea 2 números en binario (en dos puertos diferentes) y coloque la suma de ambos en un tercer puerto (la salida parpadeará si la suma se desborda, es decir, si la suma no se puede - representar en 8 bits).
 - [X] 8. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando
 el mismo valor.
