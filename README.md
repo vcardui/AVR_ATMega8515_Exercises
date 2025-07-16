@@ -1,6 +1,10 @@
 # 👻 AVR ATMega8515 Exercises
-
 Assembly exercises for AVR ATMega8515
+
+## ✌️ Team
+- Martín Isaí Nuñez Villeda - [tzisai](https://github.com/tzisai)
+- Vanessa Reteguín Arcadia - [vcardui](https://github.com/vcardui)
+- Alexis Alberto Zúñiga Alonso - [coding-cluster](https://github.com/tzisai)
 
 ## 🎯 Objectives
 - [X] 1. Grabar el programa y construir el circuito para probar la transferencia del puerto PB al Puerto PA.
