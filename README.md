@@ -3,9 +3,6 @@
 Assembly exercises for AVR ATMega8515
 
 ## 🎯 Objectives
-
-(TRANSLATE AND ADD VIDEOS)
-
 - [X] 1. Grabar el programa y construir el circuito para probar la transferencia del puerto PB al Puerto PA.
 - [X] 2. Construir el circuito para probar el "Programa KIT".
 - [X] 3. Escribir un programa que despliegue en un Display de 7 segmentos el conteo de O a F de forma cíclica (Se sugiere que sea con Lógica Inversa).
@@ -44,34 +41,15 @@ https://github.com/user-attachments/assets/11d9c830-22f4-4feb-987a-b69671b84932
 ### 9_Connecting_4_7SegmentsDisplays_different_values
 https://github.com/user-attachments/assets/adf60789-c5a3-44d9-a0d3-4bc49f1d25af
 
-
-
 ## 🙌 Project Personal Milestones
 
-(TO DO)
-
-- Learned the difference and how to use absolute and relative paths (placed my CSVs and images properly so I could share the project to my classmates and teacher)
-- Manipulated CSV files in C# aided by CSVHelper library. Learned how to use it's classes and methods
-- Used Windows Forms common controls setup and layout (Form, ComboBox PictureBox, Label, etc.)
-- Applied POO to GUIs
+- The main challenge was itself learning assembly due to the fact that we are very used to high-level languages such as C++, Python and Java.
+- Understood that it is crucial to keep in mind hardware details when working with low level languages. Limited memory space made us get creative and look for new approaches for storing and handling data.
+- Implementing tables, mainly on 0 to 99 Counter, made workflow so much smoother and easy to handle. Specially due to the less than 15 available registers.
+- Experience often beats working solutions. One of our teammate’s uncle very kindly advised us how to reduce code and optimize storage. His large low-level languages background was crucial in spotting solutions and challenged us opening up our minds to new approaches. Asking for help once in a while is ok too.
+- Nevertheless, taking in count our novelty into the paradigm and finals week pressure, some programs were proudly done poorly. Sometimes is more important something is just done than having empty hands.
+- Regarding teamwork, we learned that it is important to revaluate how much time we estimate something will take us as well to avoid distractions that may be holding us up from completing the task; despite working on other due projects.
 
 ## 💡 Inspiration for creating this project
 
-This is our “Computational Organization” last term projects (the equivalent of an exam). Each one seems to be more challenging than the previous one, but we’ll get through it.
-
-## GUI Sketch
-
-(TO DO… if relevant)
-
-(Sketches, inspiration, etc)
-
-## 👀 About the project
-
-(TO DO… if relevant)
-
-My criteria for filtering and formatting the job offers were based on:
-
-- Mentioned programming languages description: Looked for languages I was familiar with and saved those who were found in text. Colored Python in turquese for outstanding in email
-- Work Modality: Since I'm main interested in remote positions or nerby me, I added a computer emoji to text when found a Remote position and and office emoji when not.
-- Level, Location and Published Date: Outstanded each job detail into a bulled list in email
-- Link: Added link to job offer for further reference and avoiding adding full job description into email
+This is our “Computational Organization” last term projects (the equivalent of an exam). Each one seems to be more challenging than the previous one, but we went through it.
