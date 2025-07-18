@@ -6,24 +6,30 @@ Assembly exercises for AVR ATMega8515
 - Vanessa Reteguín Arcadia - [vcardui](https://github.com/vcardui)
 - Alexis Alberto Zúñiga Alonso - [coding-cluster](https://github.com/tzisai)
 
-## 🎯 Objectives
-- [X] 1. Grabar el programa y construir el circuito para probar la transferencia del puerto PB al Puerto PA.
-- [X] 2. Construir el circuito para probar el "Programa KIT".
-- [X] 3. Escribir un programa que despliegue en un Display de 7 segmentos el conteo de O a F de forma cíclica (Se sugiere que sea con Lógica Inversa).
-- [X] 4. Escribir programa que cuente de manera cíclica del 0 al 99 (utilizar 2 puertos
+## 🎯 Programs Objectives
+
+1. Record the program and build the circuit to test the transfer from port PB to port PA.
+2. Build the circuit to test the "KIT Program" (moving lights from Knight Rider car)
+3. Write a program that displays the count from 0 to F cyclically on a 7-segment display (Inverse Logic is suggested).
+4. Write a program that cyclically counts from 0 to 99 (use two ports as outputs).
+5. A program that cyclically reads one bit from one port. If it equals 1, it will display the count from 0 to 9 on a 7-segment display. Otherwise, it will display the letters A to F.
+6. A program that reads two binary numbers (on two different ports) and places the larger of the two on a third port.
+7. Program that reads two binary numbers (on two different ports) and outputs the sum of both to a third port (the output will blink if the sum overflows, that is, if the sum cannot be represented in 8 bits).
+8. Program that connects four 7-segment displays to a single port, each displaying the same value.
+
+(Original instructions in Spanish)
+
+1. Grabar el programa y construir el circuito para probar la transferencia del puerto PB al Puerto PA.
+2. Construir el circuito para probar el "Programa KIT".
+3. Escribir un programa que despliegue en un Display de 7 segmentos el conteo de O a F de forma cíclica (Se sugiere que sea con Lógica Inversa).
+4. Escribir programa que cuente de manera cíclica del 0 al 99 (utilizar 2 puertos
 como salidas).
-- [X] 5. Programa que lea UN BIT de forma cíclica de UN PUERTO y si vale 1, entonces mostrará el conteo de 0 a 9 en un display de 7 segmentos, en caso contrario
+5. Programa que lea UN BIT de forma cíclica de UN PUERTO y si vale 1, entonces mostrará el conteo de 0 a 9 en un display de 7 segmentos, en caso contrario
 mostrará las letras de la A a la F.
-- [X] 6. Programa que lea 2 números en binario (en dos puertos diferentes) y coloque el mayor de los dos en un tercer puerto.
-- [ ] 7. Programa que lea 2 números en binario (en dos puertos diferentes) y coloque la suma de ambos en un tercer puerto (la salida parpadeará si la suma se desborda, es decir, si la suma no se puede - representar en 8 bits).
-- [X] 8. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando
+6. Programa que lea 2 números en binario (en dos puertos diferentes) y coloque el mayor de los dos en un tercer puerto.
+7. Programa que lea 2 números en binario (en dos puertos diferentes) y coloque la suma de ambos en un tercer puerto (la salida parpadeará si la suma se desborda, es decir, si la suma no se puede representar en 8 bits).
+8. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando
 el mismo valor.
-
-Los próximos programas los desarrollaremos en el AULA.
-
-- [X] 9. Programa que en un solo puerto conecte 4 Displays de 7 segmentos, solo se activará uno a la vez y cada uno mostrará un valor distinto.
-- [ ] 10. Programa que en un solo puerto conecte 4 Displays de 7 segmentos mostrando un valor distinto de forma simultánea (MULTIPLEXAR).
-- [X] 11. Programa que cuenta de 0 a 99 y activa y desactiva una salida de CA cada 10 segundos. 0-10 Apagado, 11-20 Encendida, ... Apagada,
 
 ### Working project demo
 
